@@ -1,6 +1,9 @@
 # Database Replacemend files for project v1.0.0
 
-Location for replacement: backend/src/...
+replacement location: backend/src/...
 
 "(Important) Run npm run build firstly after the changement of the files"
+
+"(Important) Only Collection Type Builder will be configured <no internal data>"
+  
 
