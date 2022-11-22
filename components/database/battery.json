@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_database_batteries",
+  "info": {
+    "displayName": "Battery",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Battery_Capacity_Mah": {
+      "type": "biginteger",
+      "max": "10000",
+      "min": "500"
+    },
+    "Batery_Life_Hours": {
+      "type": "decimal",
+      "max": 5,
+      "min": 0
+    },
+    "Charging_speed_watt": {
+      "type": "integer"
+    },
+    "Charge_time_to_100": {
+      "type": "integer"
+    }
+  }
+}

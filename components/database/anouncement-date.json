@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_database_anouncement_dates",
+  "info": {
+    "displayName": "Anouncement Date",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "announcementdate": {
+      "type": "date"
+    },
+    "releasedate": {
+      "type": "date"
+    }
+  }
+}

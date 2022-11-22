@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_database_images",
+  "info": {
+    "displayName": "Image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "FoV": {
+      "displayName": "FoV",
+      "type": "component",
+      "repeatable": false,
+      "component": "database.fo-v"
+    },
+    "FoveatedRendering": {
+      "type": "boolean",
+      "required": true
+    },
+    "ARview": {
+      "type": "boolean",
+      "required": true
+    }
+  }
+}

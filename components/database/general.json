@@ -1,0 +1,80 @@
+{
+  "collectionName": "components_database_generals",
+  "info": {
+    "displayName": "General",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "productname": {
+      "type": "string",
+      "required": false,
+      "unique": false
+    },
+    "media": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "manufacturer": {
+      "type": "enumeration",
+      "enum": [
+        "Pico",
+        "Meta ",
+        "Varjo",
+        "Valve Index",
+        "Primax",
+        "Sony",
+        "Arpara",
+        "StimulaVR",
+        "Skyworth",
+        "Lenovo",
+        "Canon"
+      ]
+    },
+    "devicetype": {
+      "type": "enumeration",
+      "enum": [
+        "Standalone VR",
+        "PC-powered VR"
+      ]
+    },
+    "retailprice": {
+      "type": "decimal",
+      "max": 100000,
+      "min": 1,
+      "required": false
+    },
+    "announcementdate": {
+      "displayName": "Anouncement Date",
+      "type": "component",
+      "repeatable": false,
+      "component": "database.anouncement-date"
+    },
+    "productpage": {
+      "type": "string"
+    },
+    "EAN": {
+      "type": "integer",
+      "max": 13,
+      "min": 13,
+      "unique": true
+    },
+    "GTIN": {
+      "type": "integer",
+      "min": 12,
+      "max": 13,
+      "unique": true
+    },
+    "category_operation_systems": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::category-operation-system.category-operation-system"
+    }
+  }
+}

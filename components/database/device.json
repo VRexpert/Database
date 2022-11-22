@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_database_devices",
+  "info": {
+    "displayName": "Device",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Dimensions": {
+      "displayName": "Dimensions",
+      "type": "component",
+      "repeatable": false,
+      "component": "database.dimensions"
+    },
+    "Material": {
+      "type": "enumeration",
+      "enum": [
+        "Plastic",
+        "Plastic, fabric, foam facial interface",
+        "Titanium, resin nylon"
+      ]
+    },
+    "Weigth_grams": {
+      "type": "decimal",
+      "max": 10000,
+      "min": 10
+    },
+    "Headstrap": {
+      "type": "enumeration",
+      "enum": [
+        "Flexible fabric strap",
+        "Hard padded retractable strap",
+        "Hard padded retractable halo strap",
+        "Flexible plastic strap",
+        "Removable plastic halo strap with flip-up visor",
+        "Glasses-style frame",
+        "Plastic halo strap with flip up visor",
+        "Hard padded modular audio strap",
+        "Hard padded Halo strap"
+      ]
+    }
+  }
+}

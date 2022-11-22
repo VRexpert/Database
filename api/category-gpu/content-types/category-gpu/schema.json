@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "category_gpus",
+  "info": {
+    "singularName": "category-gpu",
+    "pluralName": "category-gpus",
+    "displayName": "Category_GPU"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

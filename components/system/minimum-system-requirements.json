@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_system_minimum_system_requirements",
+  "info": {
+    "displayName": "Minimum System Requirements",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "category_operation_systems": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::category-operation-system.category-operation-system"
+    },
+    "category_gpus": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::category-gpu.category-gpu"
+    },
+    "category_cpus": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::category-cpu.category-cpu"
+    },
+    "RAM": {
+      "type": "integer"
+    }
+  }
+}

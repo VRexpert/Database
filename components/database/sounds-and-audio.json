@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_database_sounds_and_audios",
+  "info": {
+    "displayName": "Sounds & Audio",
+    "icon": "bell-slash"
+  },
+  "options": {},
+  "attributes": {
+    "Speakers": {
+      "type": "boolean"
+    },
+    "Microphone": {
+      "type": "boolean"
+    },
+    "Audio_jack": {
+      "type": "boolean"
+    }
+  }
+}

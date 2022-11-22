@@ -1,0 +1,56 @@
+{
+  "collectionName": "components_database_tracking_controllers",
+  "info": {
+    "displayName": "Tracking_Controller",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Traking_Freq": {
+      "type": "integer",
+      "required": true
+    },
+    "category_tracking_types": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::category-tracking-type.category-tracking-type"
+    },
+    "Eye_Tracking": {
+      "type": "boolean"
+    },
+    "Face_Tracking": {
+      "type": "boolean"
+    },
+    "Hand_Tracking": {
+      "type": "boolean"
+    },
+    "Body_Tracking": {
+      "type": "boolean"
+    },
+    "category_controllers": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::category-controller.category-controller"
+    },
+    "WeigthPerController_Grams": {
+      "type": "integer"
+    },
+    "BatteriesPerController": {
+      "type": "string"
+    },
+    "category_input_methods": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::category-input-method.category-input-method"
+    },
+    "Finger_Tracking": {
+      "type": "boolean"
+    },
+    "Haptic_Feedback": {
+      "type": "boolean"
+    },
+    "Chargeable": {
+      "type": "boolean"
+    }
+  }
+}

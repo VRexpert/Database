@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_database_dimensions",
+  "info": {
+    "displayName": "Dimensions",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Length_mm": {
+      "type": "decimal",
+      "max": 10000,
+      "min": 10
+    },
+    "Width_mm": {
+      "type": "decimal",
+      "max": 10000,
+      "min": 10
+    },
+    "Heigth_mm": {
+      "type": "decimal",
+      "max": 10000,
+      "min": 10
+    }
+  }
+}

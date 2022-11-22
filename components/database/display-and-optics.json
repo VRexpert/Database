@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_database_display_and_optics",
+  "info": {
+    "displayName": "Display & Optics",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "LensType": {
+      "type": "enumeration",
+      "enum": [
+        "Fresnel Lenses",
+        "Pancake Lenses",
+        "Dual-element Fresnel lenses",
+        "Compound Fresnel Lenses",
+        "Three-element non-fresnel lenses",
+        "Dual-element canted Fresnel lenses",
+        "Aspheric Lenses",
+        "Aspherical Lenses",
+        "Freeform prism",
+        "Non-Fresnel Lenses"
+      ]
+    },
+    "AdjustableDiopter": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "IPD_Minimal_mm": {
+      "type": "integer",
+      "min": 10,
+      "max": 100
+    },
+    "IPD_Maximal_mm": {
+      "type": "integer",
+      "min": 10,
+      "max": 100
+    }
+  }
+}

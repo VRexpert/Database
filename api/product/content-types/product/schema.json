@@ -1,0 +1,190 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "Products",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "General": {
+      "displayName": "General",
+      "type": "component",
+      "repeatable": false,
+      "component": "database.general",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Optics": {
+      "displayName": "Display & Optics",
+      "type": "component",
+      "repeatable": false,
+      "component": "database.display-and-optics",
+      "required": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Title": {
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Description": {
+      "type": "richtext",
+      "required": true,
+      "maxLength": 500,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Display": {
+      "displayName": "Device Specifications",
+      "type": "component",
+      "repeatable": false,
+      "component": "database.device-specifications",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Image": {
+      "displayName": "Image",
+      "type": "component",
+      "repeatable": false,
+      "component": "database.image",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Device": {
+      "displayName": "Device",
+      "type": "component",
+      "repeatable": false,
+      "component": "database.device",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Tracking_controllers": {
+      "displayName": "Tracking_Controller",
+      "type": "component",
+      "repeatable": false,
+      "component": "database.tracking-controller",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Media": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "manufacturer": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::manufacturer.manufacturer",
+      "inversedBy": "products"
+    },
+    "Sounds_Audio": {
+      "type": "component",
+      "repeatable": false,
+      "component": "database.sounds-and-audio",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Connectivity": {
+      "displayName": "Connectivity",
+      "type": "component",
+      "repeatable": false,
+      "component": "database.connectivity",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "System": {
+      "type": "component",
+      "repeatable": true,
+      "component": "database.system",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "System_Type": {
+      "type": "dynamiczone",
+      "components": [
+        "database.system"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Storage": {
+      "displayName": "storage",
+      "type": "component",
+      "repeatable": false,
+      "component": "database.storage",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Battery": {
+      "displayName": "Battery",
+      "type": "component",
+      "repeatable": false,
+      "component": "database.battery",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

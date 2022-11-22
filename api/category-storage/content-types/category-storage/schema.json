@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "category_storages",
+  "info": {
+    "singularName": "category-storage",
+    "pluralName": "category-storages",
+    "displayName": "Category_Storage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Internal_Storage": {
+      "type": "string"
+    },
+    "SD_Card_slot": {
+      "type": "boolean"
+    }
+  }
+}

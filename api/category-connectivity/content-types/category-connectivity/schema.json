@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "category_connectivities",
+  "info": {
+    "singularName": "category-connectivity",
+    "pluralName": "category-connectivities",
+    "displayName": "Category_Connectivity"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Ports": {
+      "type": "string"
+    }
+  }
+}

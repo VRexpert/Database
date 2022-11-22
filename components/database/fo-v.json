@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_database_fo_vs",
+  "info": {
+    "displayName": "FoV",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "FOV_Diagonal_degrees": {
+      "type": "integer"
+    },
+    "FOV_Horizontal_degrees": {
+      "type": "integer"
+    },
+    "FOV_Vertical_degrees": {
+      "type": "integer"
+    }
+  }
+}

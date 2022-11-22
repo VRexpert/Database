@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_database_resolutions",
+  "info": {
+    "displayName": "Resolution",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ResolutionPerEye_Width": {
+      "type": "integer",
+      "max": 20000,
+      "min": 600
+    },
+    "ResolutionPerEye_Heigth": {
+      "type": "integer",
+      "min": 600,
+      "max": 20000,
+      "unique": false
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "category_tracking_types",
+  "info": {
+    "singularName": "category-tracking-type",
+    "pluralName": "category-tracking-types",
+    "displayName": "Category_Tracking_Type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Text": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "category_controllers",
+  "info": {
+    "singularName": "category-controller",
+    "pluralName": "category-controllers",
+    "displayName": "Category_Controller"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Controllers": {
+      "type": "string",
+      "unique": true,
+      "maxLength": 200,
+      "minLength": 5
+    }
+  }
+}

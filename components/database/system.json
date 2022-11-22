@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_database_systems",
+  "info": {
+    "displayName": "System",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Chipset": {
+      "type": "enumeration",
+      "enum": [
+        "Qualcomm Snapdragon 835",
+        "Qualcomm Snapdragon 845",
+        "Qualcomm Snapdragon XR1",
+        "Qualcomm Snapdragon XR2",
+        "Qualcomm Snapdragon XR2\"plus\"",
+        "Intel i7-1265U"
+      ]
+    },
+    "CPU": {
+      "type": "enumeration",
+      "enum": [
+        "Octa-core Kryo 280 ",
+        "Octa-core Kryo 585",
+        "Octa-core Kryo",
+        "i7-10-Core 12-thread",
+        "Octa-core Kryo 385 "
+      ]
+    },
+    "GPU": {
+      "type": "enumeration",
+      "enum": [
+        "Adreno 540",
+        "Adreno 615",
+        "Adreno 630",
+        "Adreno 650"
+      ]
+    },
+    "RAM_GB": {
+      "type": "integer",
+      "min": 1,
+      "max": 64
+    }
+  }
+}

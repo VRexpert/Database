@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_database_device_specifications",
+  "info": {
+    "displayName": "Display",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "DisplayType": {
+      "type": "enumeration",
+      "enum": [
+        "Binocular LCD Display",
+        "Binocular OLED Display",
+        "Binocular QLED Display",
+        "Binocular Mini LED Display",
+        "LCD Display",
+        "OLED Display",
+        "Fast switch OLED binocular",
+        "Micro OLED Display",
+        "liquid (CLPL) displays"
+      ],
+      "required": true
+    },
+    "Resolution": {
+      "displayName": "Resolution",
+      "type": "component",
+      "repeatable": false,
+      "component": "database.resolution"
+    },
+    "PeakBrightness_Nits": {
+      "type": "integer"
+    },
+    "RefreshRate_Hz": {
+      "max": 360,
+      "min": 30,
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "category_operation_systems",
+  "info": {
+    "singularName": "category-operation-system",
+    "pluralName": "category-operation-systems",
+    "displayName": "Category_OperationSystem",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "OS": {
+      "type": "string",
+      "unique": true,
+      "minLength": 1,
+      "maxLength": 100
+    }
+  }
+}

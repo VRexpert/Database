@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_database_storages",
+  "info": {
+    "displayName": "storage"
+  },
+  "options": {},
+  "attributes": {
+    "Internal_Storage_GB": {
+      "type": "integer"
+    },
+    "SD_Card_Slot": {
+      "type": "boolean"
+    }
+  }
+}

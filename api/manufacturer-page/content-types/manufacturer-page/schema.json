@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "manufacturer_pages",
+  "info": {
+    "singularName": "manufacturer-page",
+    "pluralName": "manufacturer-pages",
+    "displayName": "Manufacturer_Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "test": {
+      "type": "string"
+    }
+  }
+}
