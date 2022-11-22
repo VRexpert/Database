@@ -2,5 +2,5 @@
 
 Location for replacement: backend/src/...
 
-(Important) Run npm run build firstly after the changement of the files
+"(Important) Run npm run build firstly after the changement of the files"
 
